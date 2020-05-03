@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .co{
+      background-color: black;
+    }
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+      justify-content: space-between;
+    }
+    .glyphicon{
+      color: black;
+    }
+   .title{
+      margin-left: 600px;
+      font-family: Edwardian Script ITC;
+    }
+    .well img{
+      margin-left: -1400px;
+      border-radius: 70%;
+    }
+    .well{
+      /*border: 1px solid grey;*/
+    }
+    .glyphicon-plus-sign{
+      color: blue;
+      margin-left: -15px;
+      
+    }
+    .well p{
+      margin-left:-1400px;
+    }
+    .items{
+      display:flex;
+      overflow-x: auto;
+    }
+    .items::-webkit-scrollbar{
+      display: none;
+    }
+    .items .item{
+      min-width: 200px;
+      min-height: 100px;
+      background:#ddd;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="co">
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">        
+        <span class="icon"></span>
+        <span class="icon"></span>
+        <span class="icon"></span>                       
+       </button> 
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-left">
+       <li><a href="#"><span class="glyphicon glyphicon-camera" style="color: white;"></span></a>
+        <li><h1 class="title" style="color: white;">Instagram</h1></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-send" style="color: white;"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="well" style="background-color: black;">
+  <div class="container text-center">
+    <img src="pic4.jpg" height="100" width="100">  
+     <span class="glyphicon glyphicon-plus-sign"></span>  
+    <p style="color: white;">your story</p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="profile.jpg" height="30" width="30" style="border-radius: 50%; margin-left: -300px;">
+      <h4 style="margin-left:-150px;margin-top:-20px;font-family: Times New Roman;color: white;"><b>siva08</b></h4>
+      <img src="dots.jpg" height="40" width="40" style="margin-left:200px;margin-top: -60px;">
+     <img src="quote.jpg" class="img-responsive" alt="Image" height="400" width="300">
+     <i class="fa fa-bookmark-o" style="font-size:20px;color: white;"></i>
+     <i class="fa fa-heart-o" style="font-size: 24px;margin-left: -275px;color: white;"></i>
+     <i class="far fa-comment" style="font-size: 24px;color: white;"></i>
+     <i class="fa fa-send-o" style="font-size: 24px;color: white;"></i>
+     
+    </div>
+    
+    <div class="col-sm-3"> 
+     <img src="pic2.jpg" height="30" width="30" style="border-radius: 50%; margin-left: -300px;">
+      <h4 style="margin-left:-150px;margin-top:-20px;font-family: Times New Roman;color: white;"><b>vibhu08</b></h4>
+      <img src="dots.jpg" height="40" width="40" style="margin-left:200px;margin-top: -60px;">
+     <img src="quote2.jpg" class="img-responsive" alt="Image" height="700" width="300" style="height: 450px;">
+     <i class="fa fa-bookmark-o" style="font-size:20px;color: white;"></i>
+     <i class="fa fa-heart-o" style="font-size: 24px;margin-left: -275px;color: white;"></i>
+     <i class="far fa-comment" style="font-size: 24px;color: white;"></i>
+     <i class="fa fa-send-o" style="font-size: 24px;color: white;"></i>
+     
+    </div>
+    <div class="col-sm-3"> 
+      <img src="pic5.jpg" height="30" width="30" style="border-radius: 50%; margin-left: -300px;">
+      <h4 style="margin-left:-150px;margin-top:-20px;font-family: Times New Roman;color: white;"><b>arun</b></h4>
+      <img src="dots.jpg" height="40" width="40" style="margin-left:200px;margin-top: -60px;">
+     <img src="quote3.jpg" class="img-responsive" alt="Image" height="400" width="300"  style="height: 450px;">
+     <i class="fa fa-bookmark-o" style="font-size:20px;color: white;"></i>
+     <i class="fa fa-heart-o" style="font-size: 24px;margin-left: -275px;color: white;"></i>
+     <i class="far fa-comment" style="font-size: 24px;color: white;"></i>
+     <i class="fa fa-send-o" style="font-size: 24px;color: white;"></i>
+     
+    </div>
+    <div class="col-sm-3">
+      <img src="pic3.jpg" height="30" width="30" style="border-radius: 50%; margin-left: -300px;">
+      <h4 style="margin-left:-150px;margin-top:-20px;font-family: Times New Roman;color: white;"><b>chiranjeevi</b></h4>
+      <img src="dots.jpg" height="40" width="40" style="margin-left:200px;margin-top: -60px;">
+     <img src="quote4.jpg" class="img-responsive" alt="Image" height="400" width="300"  style="height: 450px;">
+     <i class="fa fa-bookmark-o" style="font-size:20px;color: white;"></i>
+     <i class="fa fa-heart-o" style="font-size: 24px;margin-left: -275px;color: white;"></i>
+     <i class="far fa-comment" style="font-size: 24px;color: white;"></i>
+     <i class="fa fa-send-o" style="font-size: 24px;color: white;"></i>
+     
+    </div>
+  </div>
+</div><br>
+
+<!-- <div class="cont">    
+  <div class="row"> -->
+    <!-- <div class="col-sm-3"> -->
+     <!--  <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div> -->
+    <h3 style="background-color: black;color: white;">suggested for you</h3> 
+  <div class="items" style="background-color: black;">
+    <div class="item" style="background-color: black;border: 1px solid grey;">
+      <img src="profile.jpg" height="60" width="60"   style="border-radius: 50%;margin-left: 50px;margin-top: 10px;">
+      <i class="fa fa-times" aria-hidden="true" style="margin-top:-90px;margin-left: 70px;color: white;"></i>
+      <h3 style="font-family:Times New Roman;margin-left: 15px;color: white;">Hasinikumar</h3>
+      <p style="font-family:Times New Roman;color: white;margin-left: 17px">Friend on facebook</p>
+      <button class="btn btn-info"style="font-family:Times New Roman;margin-left: 20px;">Follow</button>
+    </div>
+   <div class="item" style="background-color: black;border: 1px solid grey;">
+      <img src="pic2.jpg" height="60" width="60"   style="border-radius: 50%;margin-left: 50px;margin-top: 10px;">
+      <i class="fa fa-times" aria-hidden="true" style="margin-top:-90px;margin-left: 70px;color: white;"></i>
+      <h3 style="font-family:Times New Roman;margin-left: 15px;color: white;">vibhasini008</h3>
+      <p style="font-family:Times New Roman;color: white;margin-left: 17px">Friend on facebook</p>
+      <button class="btn btn-info"style="font-family:Times New Roman;margin-left: 20px;">Follow</button>
+    </div>
+    <div class="item" style="background-color: black;border: 1px solid grey;">
+      <img src="pic3.jpg" height="60" width="60"   style="border-radius: 50%;margin-left: 50px;margin-top: 10px;">
+      <i class="fa fa-times" aria-hidden="true" style="margin-top:-90px;margin-left: 70px;color: white;"></i>
+      <h3 style="font-family:Times New Roman;margin-left: 15px;color: white;">Chiranjeevi08</h3>
+      <p style="font-family:Times New Roman;color: white;margin-left: 17px">Friend on facebook</p>
+      <button class="btn btn-info"style="font-family:Times New Roman;margin-left: 20px;">Follow</button>
+    </div>
+    <div class="item" style="background-color: black;border: 1px solid grey;">
+      <img src="pic5.jpg" height="60" width="60"   style="border-radius: 50%;margin-left: 50px;margin-top: 10px;">
+      <i class="fa fa-times" aria-hidden="true" style="margin-top:-90px;margin-left: 70px;color: white;"></i>
+      <h3 style="font-family:Times New Roman;margin-left: 15px;color: white;">Arun</h3>
+      <p style="font-family:Times New Roman;color: white;margin-left: 17px">Friend on facebook</p>
+      <button class="btn btn-info"style="font-family:Times New Roman;margin-left: 20px;">Follow</button>
+    </div>
+    <div class="item" style="background-color: black;border: 1px solid grey;">
+      <img src="quote3.jpg" height="60" width="60"   style="border-radius: 50%;margin-left: 50px;margin-top: 10px;">
+      <i class="fa fa-times" aria-hidden="true" style="margin-top:-90px;margin-left: 70px;color: white;"></i>
+      <h3 style="font-family:Times New Roman;margin-left: 15px;color: white;">sravya09</h3>
+      <p style="font-family:Times New Roman;color: white;margin-left: 17px">Friend on facebook</p>
+      <button class="btn btn-info"style="font-family:Times New Roman;margin-left: 20px;">Follow</button>
+    </div>
+    <div class="item" style="background-color: black;border: 1px solid grey;">
+      <img src="quote2.jpg" height="60" width="60"   style="border-radius: 50%;margin-left: 50px;margin-top: 10px;">
+      <i class="fa fa-times" aria-hidden="true" style="margin-top:-90px;margin-left: 70px;color: white;"></i>
+      <h3 style="font-family:Times New Roman;margin-left: 15px;color: white;">srii0877</h3>
+      <p style="font-family:Times New Roman;color: white;margin-left: 17px">Friend on facebook</p>
+      <button class="btn btn-info"style="font-family:Times New Roman;margin-left: 20px;">Follow</button>
+    </div>
+    <div class="item" style="background-color: black;border: 1px solid grey;">
+      <img src="profile.jpg" height="60" width="60"   style="border-radius: 50%;margin-left: 50px;margin-top: 10px;">
+      <i class="fa fa-times" aria-hidden="true" style="margin-top:-90px;margin-left: 70px;color: white;"></i>
+      <h3 style="font-family:Times New Roman;margin-left: 15px;color: white;">Hasinikumar</h3>
+      <p style="font-family:Times New Roman;color: white;margin-left: 17px">Friend on facebook</p>
+      <button class="btn btn-info"style="font-family:Times New Roman;margin-left: 20px;">Follow</button>
+    </div>
+    <div class="item" style="background-color: black;border: 1px solid grey;">
+      <img src="profile.jpg" height="60" width="60"   style="border-radius: 50%;margin-left: 50px;margin-top: 10px;">
+      <i class="fa fa-times" aria-hidden="true" style="margin-top:-90px;margin-left: 70px;color: white;"></i>
+      <h3 style="font-family:Times New Roman;margin-left: 15px;color: white;">Hasinikumar</h3>
+      <p style="font-family:Times New Roman;color: white;margin-left: 17px">Friend on facebook</p>
+      <button class="btn btn-info"style="font-family:Times New Roman;margin-left: 20px;">Follow</button>
+    </div>
+    <div class="item" style="background-color: black;border: 1px solid grey;">
+      <img src="profile.jpg" height="60" width="60"   style="border-radius: 50%;margin-left: 50px;margin-top: 10px;">
+      <i class="fa fa-times" aria-hidden="true" style="margin-top:-90px;margin-left: 70px;color: white;"></i>
+      <h3 style="font-family:Times New Roman;margin-left: 15px;color: white;">Hasinikumar</h3>
+      <p style="font-family:Times New Roman;color: white;margin-left: 17px">Friend on facebook</p>
+      <button class="btn btn-info"style="font-family:Times New Roman;margin-left: 20px;">Follow</button>
+    </div>
+    <div class="item" style="background-color: black;border: 1px solid grey;">
+      <img src="profile.jpg" height="60" width="60"   style="border-radius: 50%;margin-left: 50px;margin-top: 10px;">
+      <i class="fa fa-times" aria-hidden="true" style="margin-top:-90px;margin-left: 70px;color: white;"></i>
+      <h3 style="font-family:Times New Roman;margin-left: 15px;color: white;">Hasinikumar</h3>
+      <p style="font-family:Times New Roman;color: white;margin-left: 17px">Friend on facebook</p>
+      <button class="btn btn-info"style="font-family:Times New Roman;margin-left: 20px;">Follow</button>
+    </div>
+   <div class="item" style="background-color: black;border: 1px solid grey;">
+      <img src="profile.jpg" height="60" width="60"   style="border-radius: 50%;margin-left: 50px;margin-top: 10px;">
+      <i class="fa fa-times" aria-hidden="true" style="margin-top:-90px;margin-left: 70px;color: white;"></i>
+      <h3 style="font-family:Times New Roman;margin-left: 15px;color: white;">Hasinikumar</h3>
+      <p style="font-family:Times New Roman;color: white;margin-left: 17px">Friend on facebook</p>
+      <button class="btn btn-info"style="font-family:Times New Roman;margin-left: 20px;">Follow</button>
+    </div>
+  </div>
+  <!-- </div> -->
+<!-- </div>
+</div> -->
+<br><br>
+
+<footer class="container-fluid text-center" style="background-color: black;color: white;">
+  <div class="col-md-2">
+  <i class="fa fa-home" aria-hidden="true" style="font-size: 30px;color: white;"></i></div>
+   <div class="col-md-2">
+  <i class="fa fa-search" aria-hidden="true" style="font-size: 30px;color: white;"></i></div>
+   <div class="col-md-3">
+  <i class="fas fa-plus-square" style="font-size: 30px;color: white;"></i></div>
+   <div class="col-md-2">
+  <i class="fa fa-heart-o" aria-hidden="true" style="font-size: 30px;color: white;"></i></div>
+   <div class="col-md-2">
+  <i class="fa fa-user-o" aria-hidden="true" style="font-size: 30px;color: white;"></i></div>
+</footer>
+</div>
+</body>
+</html>
